@@ -102,9 +102,11 @@ body {
 /* Post */
 
 .post {
-  display: none;
+  opacity: 1;
+  transition: all 1s;
   &.active {
-    display: block;
+    transition: all 1s;
+    opacity: 0;
   }
 }
 

@@ -1,4 +1,5 @@
 'use strict';
+/*global clearMessages*/
 
 function titleClickHandler(event){
     event.preventDefault();
