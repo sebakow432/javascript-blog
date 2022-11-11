@@ -1,5 +1,5 @@
 function clearMessages(deletedItem){
-	deletedItem.innerHTML = '';
+  deletedItem.innerHTML = '';
 }
 
 clearMessages();
