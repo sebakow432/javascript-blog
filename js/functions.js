@@ -1,4 +1,4 @@
-function clearMessages(deletedItem){
+function clearMessages(deletedItem) {
   deletedItem.innerHTML = '';
 }
 

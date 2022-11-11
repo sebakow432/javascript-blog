@@ -25,6 +25,7 @@ body {
   font-family: "Oswald", sans-serif;
   font-weight: 600;
 }
+
 .section-title span {
   text-transform: none;
   font-weight: 400;
@@ -45,7 +46,8 @@ body {
   flex: 2 0 0;
 }
 
-.sidebar, .posts {
+.sidebar,
+.posts {
   background: #fff;
   margin-right: 10px;
   padding: 40px;
@@ -68,6 +70,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .list .active {
   font-weight: bold;
 }
@@ -83,10 +86,13 @@ body {
 
 /* Post */
 .post {
-  display: none;
+  opacity: 1;
+  transition: all 1s;
 }
+
 .post.active {
-  display: block;
+  transition: all 1s;
+  opacity: 0;
 }
 
 .post-author {
@@ -96,6 +102,7 @@ body {
 .post-tags {
   display: flex;
 }
+
 .post-tags p {
   margin: 0 10px 0 0;
 }/*# sourceMappingURL=style.css.map */
