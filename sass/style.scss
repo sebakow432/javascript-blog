@@ -57,10 +57,10 @@ body {
 
 .posts {
   flex: 2 0 0;
+  position: relative;
 }
 
-.sidebar,
-.posts {
+.sidebar, .post{
   background: $color-light;
   margin-right: 10px;
   padding: 40px;
@@ -105,14 +105,15 @@ body {
 }
 
 /* Post */
-
 .post {
-  opacity: 1;
-  transition: all 1s;
+  opacity: 0;
+  transition: all 0.6s;
+  position: absolute;
 
   &.active {
-    transition: all 1s;
-    opacity: 0;
+    transition: all 0.6s;
+    opacity: 1;
+    z-index: 1;
   }
 }
 
