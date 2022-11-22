@@ -47,6 +47,7 @@ body {
 a{
   text-decoration: none;
   color: black;
+
 }
 
 /* Layout */
@@ -94,32 +95,40 @@ a{
   .active {
     font-weight: bold;
   }
-
-  .tag-size-1{
-    font-size: 15px;
-  }
-
-  .tag-size-2{
-    font-size: 16px;
-  }
-
-  .tag-size-3{
-    font-size: 17px;
-  }
-
-  .tag-size-4{
-    font-size: 18px;
-  }
-
-  .tag-size-5{
-    font-size: 19px;
-  }
-
 }
 
 .list-horizontal {
   li {
     display: inline-block;
+    padding: 0 5px 0 0;
+  }
+}
+
+.tags{
+  display: inline-block;
+  .tag-size-1{
+    font-size: 16px;
+    color: red;
+  }
+
+  .tag-size-2{
+    font-size: 18px;
+    color: greenyellow;
+  }
+
+  .tag-size-3{
+    font-size: 20px;
+    color: blueviolet;
+  }
+
+  .tag-size-4{
+    font-size: 22px;
+    color: olivedrab;
+  }
+
+  .tag-size-5{
+    font-size: 24px;
+    color: orchid;
   }
 }
 
